@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jogo da Velha</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+
+	<div id="container">
+
+		<div class="text-vez-jogador">
+			Vez do jogador: <span id="span-vez-jogador">X</span>
+		</div>
+
+		<table>
+			<tr>
+				<td id="1" onclick="mudarVez('1')"></td>
+				<td id="2" onclick="mudarVez('2')"></td>
+				<td id="3" onclick="mudarVez('3')"></td>
+			</tr>
+			<tr>
+				<td id="4" onclick="mudarVez('4')"></td>
+				<td id="5" onclick="mudarVez('5')"></td>
+				<td id="6" onclick="mudarVez('6')"></td>
+			</tr>
+			<tr>
+				<td id="7" onclick="mudarVez('7')"></td>
+				<td id="8" onclick="mudarVez('8')"></td>
+				<td id="9" onclick="mudarVez('9')"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="marca_vitoria">
+		Vitória
+	</div>
+	<div id="marca_empate">
+		Empate
+	</div>
+	<div onclick="reiniciaJogo();" id="btn-reload">
+		Reiniciar
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>

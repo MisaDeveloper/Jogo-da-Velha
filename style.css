@@ -1,0 +1,66 @@
+* {
+	font-family: Arial;
+}
+
+/*Container*/
+
+#container {
+	margin: auto;
+	text-align: center;
+}
+
+.text-vez-jogador {
+	display: inline-block;
+	font-size: 1.6em;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.span-vez-jogador {
+	color: green;
+}
+
+table {
+	margin: auto;
+}
+
+/*Criar tabela de jogo*/
+
+td {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background: #CDC9C9;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 3.0em;
+}
+
+#marca_vitoria, #marca_empate {
+	color: green;
+	font-weight: bold;
+	font-size: 3.0em;
+	text-align: center;
+	margin-top: 20px;
+	display: none;
+}
+
+#btn-reload {
+	cursor: pointer;
+	border: 3px solid green;
+	padding: 10px 20px;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	color: green;
+	margin-top: 20px;
+	border-radius: 15px;
+	transition-duration: 0.3s;
+	display: none;
+}
+
+#btn-reload:hover {
+	color: white;
+	background: green;
+}
